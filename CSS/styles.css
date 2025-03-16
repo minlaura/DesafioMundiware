@@ -47,8 +47,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 183px;
-  height: 46px;
+  top: 56px;
+  left: 654px;
 }
 
 .main-header {
@@ -656,8 +656,6 @@ li:hover {
 }
 
 .logo img {
-  width: 50px;
-  height: 44px;
   margin-right: 24px;
 }
 
