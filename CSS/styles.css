@@ -928,11 +928,15 @@ li:hover {
   }
 
   .info-tags h3 {
-    font-size: 32px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .tag-topic {
+    font-size: 12px;
   }
 
   .moreinfo-container h3 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .register h2 {
