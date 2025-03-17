@@ -120,6 +120,7 @@
   align-items: center;
   gap: 3px;
   padding-top: 45px;
+  font-weight: bold;
 }
 
 .movies-title {
@@ -202,6 +203,11 @@
     background: #e51d3500 0% 0% no-repeat padding-box;
     border: 1px solid #e51d35;
     border-radius: 23px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #e51d35;
   }
 }
 .rectangle_3 {
