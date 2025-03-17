@@ -43,12 +43,13 @@
   height: 7px;
 }
 
-.logo {
+.logo-horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 56px;
-  left: 654px;
+  margin: 0 auto; /* Center horizontally */
+  padding-top: 56px; /* Instead of absolute positioning */
+  width: 200px;
 }
 
 .main-header {
@@ -330,6 +331,7 @@
   display: flex;
   flex-direction: column;
   padding: 22px 10px;
+
   h3 {
     font-size: 48px;
     font-weight: bold;
@@ -651,18 +653,20 @@ li:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 50px;
-  width: 311px;
+  padding: 15px;
 }
 
 .logo img {
-  margin-right: 24px;
+  width: 70px;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 100px;
 }
 
 .logo h4 {
-  font-size: 25px;
+  font-size: 37px;
   font-weight: bold;
-  margin: 0;
+  margin-bottom: 100px;
 }
 
 .develop_info {
