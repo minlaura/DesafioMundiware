@@ -339,7 +339,7 @@
   flex-direction: column;
   padding: 22px 10px;
 
-  h3 {
+  h4 {
     font-size: 48px;
     font-weight: bold;
   }
@@ -455,6 +455,14 @@
   font-weight: bold;
   font-size: 14px;
 }
+#submit-option {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+#submit-option:active {
+  transform: scale(0.95);
+  background-color: #d1d1d1;
+}
+
 .rectangle_5 {
   height: 0px;
   width: 100%;
