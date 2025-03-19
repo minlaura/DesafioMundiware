@@ -3,17 +3,7 @@
 ## 📌 Sobre o Projeto  
 **Notícia 24h** é um portal de notícias moderno com **design responsivo**, desenvolvido utilizando **HTML e CSS**. O projeto apresenta uma interface intuitiva para leitura de artigos e notícias, focando em uma ótima experiência para usuários de **desktop e mobile**.  
 
----
 
-## ✨ Características  
-
-✅ **Seção de cabeçalho** com clima e cotações atualizadas  
-✅ **Artigos formatados** com imagens, citações e conteúdo complementar  
-✅ **Sistema de reações** para os artigos  
-✅ **Newsletter** para cadastro de usuários  
-✅ **Seção de tópicos em alta** (tags exploráveis)  
-✅ **Cards de notícias relacionadas**  
-✅ **Sistema de enquetes** para interação  
 
 ---
 ## 📖 Código Semântico  
