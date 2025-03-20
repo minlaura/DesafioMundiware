@@ -313,7 +313,7 @@
   border-radius: 4px;
   padding: 8px 18px;
   width: auto;
-  display: inline-block; /* Garante que o elemento se ajuste ao texto */
+  display: inline-block;
   margin-right: 10px;
   margin-bottom: 12px;
 }
@@ -487,7 +487,7 @@
   width: auto;
   justify-content: center;
   align-items: center;
-  display: flex; /* Garante que o elemento se ajuste ao texto */
+  display: flex;
   margin-right: 10px;
   margin-top: 30px;
   background: #5c5c5c00 0% 0% no-repeat padding-box;
@@ -628,7 +628,6 @@ footer {
   position: relative;
 }
 
-/* Estilo para as colunas */
 .column {
   flex: 1;
   min-width: 200px;
@@ -657,7 +656,6 @@ li:hover {
   opacity: 1;
 }
 
-/* Layout de 2 colunas dentro da primeira coluna */
 .column_2 {
   display: flex;
   flex-direction: row;
@@ -700,14 +698,13 @@ li:hover {
   margin-bottom: 40px;
 }
 
-/* Créditos de design e desenvolvimento */
 .credits {
   display: flex;
   align-items: center;
   gap: 10px;
   opacity: 0.7;
   font-size: 12px;
-  margin-bottom: 44px; /* Afasta 40px do fim da página */
+  margin-bottom: 44px;
 }
 
 .credits span {
@@ -721,9 +718,7 @@ li:hover {
   margin-left: 5px;
 }
 
-/* Telas médias (tablets) */
 @media screen and (max-width: 1024px) {
-  /* Ajustes Global*/
   html,
   body {
     width: 100%;
@@ -731,17 +726,11 @@ li:hover {
     overflow-x: hidden;
   }
 
-  .main-info {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .container {
     padding-left: 5%;
     padding-right: 5%;
   }
 
-  /* Ajustar Cards para se adaptar em telas pequenas*/
   .movie_cards {
     flex-wrap: wrap;
     justify-content: center;
@@ -752,7 +741,6 @@ li:hover {
     margin-bottom: 20px;
   }
 
-  /* Ajuste page note */
   .page-note {
     flex-direction: column;
     align-items: center;
@@ -767,7 +755,6 @@ li:hover {
   }
 }
 
-/* Small screens (mobile phones) */
 @media screen and (max-width: 768px) {
   .main-header {
     flex-direction: column;
@@ -793,7 +780,6 @@ li:hover {
     display: none;
   }
 
-  /* Imagem filme */
   #picture-movie {
     top: 449px;
     left: 20px;
@@ -808,17 +794,14 @@ li:hover {
     padding-right: 20px;
   }
 
-  /*Ajuste dos Cards de filme */
   .card {
     width: 100%;
   }
 
-  /* Opinião de Usuário */
   .user-opinion {
     width: 100%;
   }
 
-  /* Opções de lado */
   .side-options {
     display: none;
   }
@@ -827,7 +810,6 @@ li:hover {
     display: none;
   }
 
-  /* Quote Ajustes */
   .artist-quote q {
     font-size: 20px;
   }
@@ -836,7 +818,6 @@ li:hover {
     font-size: 20px;
   }
 
-  /* Footer Ajustes */
   .container {
     flex-direction: column;
     padding: 10px;
@@ -891,7 +872,6 @@ li:hover {
     gap: 15px;
   }
 
-  /* Footer créditos */
   .develop_info {
     flex-direction: column;
     align-items: flex-start;
@@ -899,7 +879,6 @@ li:hover {
   }
 }
 
-/* Extra small screens */
 @media screen and (max-width: 480px) {
   .home-header {
     font-size: 18px;
@@ -922,7 +901,11 @@ li:hover {
   }
 
   .moreinfo-container h3 {
-    font-size: 30px;
+    font-size: 16px;
+  }
+  .moreinfo-row {
+    display: flex;
+    flex-direction: column;
   }
 
   .register h2 {
@@ -948,7 +931,7 @@ li:hover {
   }
   .side-options {
     position: absolute;
-    top: 850px; /* Nivelamento, abaixar*/
+    top: 850px;
     left: 0;
     width: 100%;
     height: 82px;
