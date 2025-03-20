@@ -47,8 +47,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto; /* Center horizontally */
-  padding-top: 30px; /* Instead of absolute positioning */
+  margin: 0 auto;
+  padding-top: 30px;
   width: 200px;
 }
 
@@ -766,17 +766,6 @@ li:hover {
     display: none;
   }
 }
-.icons {
-  display: flex !important;
-}
-
-.movie_card-react {
-  display: none;
-}
-
-.link_social_media {
-  display: none;
-}
 
 /* Small screens (mobile phones) */
 @media screen and (max-width: 768px) {
@@ -909,17 +898,6 @@ li:hover {
     gap: 10px;
   }
 }
-.icons {
-  display: none;
-}
-
-.movie_card-react {
-  display: none;
-}
-
-.link_social_media {
-  display: none;
-}
 
 /* Extra small screens */
 @media screen and (max-width: 480px) {
@@ -991,10 +969,10 @@ li:hover {
   .movie_card-react {
     display: none;
   }
-}
-.link_social_media {
-  display: none;
-}
-.movies-author {
-  display: none;
+  .link_social_media {
+    display: none;
+  }
+  .movies-author {
+    display: none;
+  }
 }
