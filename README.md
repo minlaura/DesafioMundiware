@@ -1,7 +1,7 @@
 # 📰 Notícia 24h - Portal de Notícias  
 
 ## 📌 Sobre o Projeto  
-**Notícia 24h** é um portal de notícias moderno com **design responsivo**, desenvolvido utilizando **HTML e CSS**. O projeto apresenta uma interface intuitiva para leitura de artigos e notícias, focando em uma ótima experiência para usuários de **desktop e mobile**.  
+**Notícia 24h** é um portal de notícias moderno com **design responsivo**, desenvolvido utilizando **HTML e CSS**. O projeto apresenta uma interface intuitiva para leitura de artigos e notícias, focando em uma experiência para usuários de **desktop e mobile**.  
 
 
 
